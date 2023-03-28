@@ -1,10 +1,3 @@
-# Prevention-of-Communications-Forgery
+## Conclusion
 
-To run:
-1. `python3 server.py`
-2. `python3 client.py`
-
-
-To simulate attempted hacker:
-1. `python3 server.py`
-2. `python3 malicious_client.py`
+The Prevention-of-Communications-Forgery GitHub repository provides code for the prevention of communications forgery. The code is written in Python and consists of two files: 'server.py' and 'client.py'. The code in the 'server.py' file is used to set up a server that will receive instructions from a client and add them to a blockchain, while the code in the 'client.py' file is used to set up a client that will send instructions to a server and receive a response. Additionally, the repository contains an '__init__.py' file, which initializes the 'blockchain' module so that the functions and classes within it can be used. This code can be used to securely send and receive instructions and data, and is particularly useful for applications such as cryptocurrency and distributed ledgers.
