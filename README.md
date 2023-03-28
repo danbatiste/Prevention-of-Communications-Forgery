@@ -1,3 +1,27 @@
+* `store_signature()`: This function is used to store a digital signature in the blockchain.
+  * `verify_signature()`: This function is used to verify the authenticity of a digital signature stored in the blockchain.
+
+## Example
+
+The following example shows how to use the blockchain module to store and verify a digital signature.
+
+```python
+# Import blockchain module
+from prevention_of_communications_forgery import blockchain
+
+# Generate digital signature
+signature = generate_signature()
+
+# Store signature in blockchain
+blockchain.store_signature(signature)
+
+# Verify signature
+if blockchain.verify_signature(signature):
+    print('Signature is valid!')
+else:
+    print('Signature is invalid!')
+```
+
 ## Conclusion
 
-The Prevention-of-Communications-Forgery GitHub repository provides code for the prevention of communications forgery. The code is written in Python and consists of two files: 'server.py' and 'client.py'. The code in the 'server.py' file is used to set up a server that will receive instructions from a client and add them to a blockchain, while the code in the 'client.py' file is used to set up a client that will send instructions to a server and receive a response. Additionally, the repository contains an '__init__.py' file, which initializes the 'blockchain' module so that the functions and classes within it can be used. This code can be used to securely send and receive instructions and data, and is particularly useful for applications such as cryptocurrency and distributed ledgers.
+The code in this repository can be used to securely store and verify communications data. It implements a blockchain module using a distributed ledger technology, which ensures that all communications data is securely stored and verified.
